@@ -1,0 +1,628 @@
+/* iPads (portrait and landscape) ----------- */
+@media all and (min-device-height : 800px) and (max-device-height : 1280px)  {
+
+    .item {
+        padding: 0px;
+        font-size: 20px;
+        height: 72px;
+    }
+    .welcome-big-text {
+        font-size: 36px;
+        font-weight: normal;
+        color: wheat;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .welcome-small-text {
+        font-size: 30px;
+        font-weight: normal;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        color: wheat;
+    }
+    .wellcomelogoimg {
+        height: 394px;
+    }
+    .abotusimg {
+        height: 294px;
+    }
+    .aboutus-region {
+        margin-top: 40px;
+        background-image: url(../img/aboutbg.png);
+        background-size: 100%;
+        height: 770px;
+    }
+    .aboutus-text p {
+        padding: 30px;
+        font-size: 30px;
+        text-align: justify;
+        line-height: 1.2em;
+        font-family: gillsans;
+    }
+    .aboutus-text span {
+        margin-top: 20px;
+        font-size: 44px;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+        text-align: center;
+    }
+    
+    .aboutus-text ul {
+        list-style-type:square;
+        padding: 30px;
+        margin-top:  20px;
+    }
+    .aboutus-text li {
+        font-size: 22px;
+        text-align: left;
+        line-height: 1.2em;
+        font-family: gillsans;
+        font-weight: bold;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .stockimg {
+        /*        width: 730px;*/
+        width: 100%;
+        height: 434px;
+        margin-left: -10px;
+    }
+    .item-cap {
+        font-size: 26px
+    }
+    .numbertext {
+        font-size: 26px
+    }
+    .price-region {
+        padding: 50px;
+    }
+    .bar-header {
+        height: 200px;
+    }
+    .bar-footer {
+        height: 120px;
+    }
+    .has-header {
+        top: 200px;
+    }
+    
+    .button-class {
+    /* W3C */
+    color: #000000;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+
+    .button {
+        min-width: 90px;
+        min-height: 45px;
+        line-height: normal;
+    }
+    .button-text {
+        font-size: 24px;
+        font-weight: Bolder;
+        color: #000000;
+        height: 100%;
+        width: 100%;
+        display: table;
+    }
+    .button-text p {
+        padding-top: 5px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .title-image {
+        margin-top: -5px;
+        height: 180px;
+        width: 234px;
+        margin-left: 10px;
+        
+    }
+    .title-lbl {
+        color: wheat;
+        text-align: right;
+        font-weight: bold;
+        margin-right: 2px;
+        font-size: 26px;
+    }
+    .title-bidasklbl {
+        color: wheat;
+        text-align: right;
+        font-weight: bold;
+        margin-right: 2px;
+        margin-top: 40px;
+        font-size: 36px;
+    }
+    .title-bidaskrate {
+        color: wheat;
+        text-align: center;
+        font-weight: bold;
+        margin-right: 2px;
+        margin-top: 40px;
+        font-size: 36px;
+    }
+    .callus {
+        height: 56px;
+        width: 56px;
+        margin-top: 5px;
+    }
+}
+
+
+
+/*  *****************  For 2 */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1020px) and (-webkit-device-pixel-ratio: 2) {
+    .item {
+        padding: 0px;
+        font-size: 20px;
+        height: 72px;
+    }
+    .welcome-big-text {
+        font-size: 36px;
+        font-weight: normal;
+        color: wheat;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .welcome-small-text {
+        font-size: 30px;
+        font-weight: normal;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        color: wheat;
+    }
+    .wellcomelogoimg {
+        height: 394px;
+    }
+    .abotusimg {
+        height: 294px;
+    }
+    .aboutus-region {
+        margin-top: 40px;
+        background-image: url(../img/aboutbg.png);
+        background-size: 100%;
+        height: 770px;
+    }
+    .aboutus-text p {
+        padding: 30px;
+        font-size: 30px;
+        text-align: justify;
+        line-height: 1.2em;
+        font-family: gillsans;
+    }
+    
+    .aboutus-text ul {
+        list-style-type:square;
+        padding: 30px;
+        margin-top:  20px;
+    }
+    .aboutus-text li {
+        font-size: 22px;
+        text-align: left;
+        line-height: 1.2em;
+        font-family: gillsans;
+        font-weight: bold;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .aboutus-text span {
+        margin-top: 20px;
+        font-size: 36px;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+        text-align: center;
+    }
+    .stockimg {
+        /*        width: 730px;*/
+        width: 100%;
+        height: 434px;
+        margin-left: -10px;
+    }
+    .item-cap {
+        font-size: 26px
+    }
+    .numbertext {
+        font-size: 26px
+    }
+    .price-region {
+        padding: 50px;
+    }
+    .bar-header {
+        height: 200px;
+    }
+    .bar-footer {
+        height: 120px;
+    }
+    .has-header {
+        top: 200px;
+    }
+    
+    .button-class {
+    /* W3C */
+    color: #000000;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+    .button {
+        min-width: 90px;
+        min-height: 45px;
+        line-height: normal;
+    }
+    .button-text {
+        font-size: 24px;
+        font-weight: Bolder;
+        color: #000000;
+        height: 100%;
+        width: 100%;
+        display: table;
+    }
+    .button-text p {
+        padding-top: 5px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .title-image {
+        margin-top: -5px;
+        height: 180px;
+        width: 234px;
+        margin-left: 10px;
+        
+    }
+    .title-lbl {
+        color: wheat;
+        text-align: right;
+        font-weight: bold;
+        margin-right: 2px;
+        font-size: 26px;
+    }
+    .title-bidasklbl {
+        color: wheat;
+        text-align: right;
+        font-weight: bold;
+        margin-right: 2px;
+        margin-top: 40px;
+        font-size: 36px;
+    }
+    .title-bidaskrate {
+        color: wheat;
+        text-align: center;
+        font-weight: bold;
+        margin-right: 2px;
+        margin-top: 40px;
+        font-size: 36px;
+    }
+    .callus {
+        height: 56px;
+        width: 56px;
+        margin-top: 5px;
+    }
+}
+
+@media all and (-webkit-device-pixel-ratio: 3) {
+    .item {
+        padding: 0px;
+        font-size: 34px;
+        height: 111px;
+    }
+    .welcome-big-text {
+        font-size: 44px;
+        font-weight: normal;
+        color: wheat;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .welcome-small-text {
+        font-size: 32px;
+        font-weight: normal;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: wheat;
+    }
+    .wellcomelogoimg {
+        height: 591px;
+    }
+    .abotusimg {
+        height: 441px;
+    }
+    .aboutus-region {
+        margin-top: 40px;
+        background-image: url(../img/aboutbg.png);
+        background-size: 100%;
+        height: 1155px;
+    }
+    .aboutus-text p {
+        padding: 45px;
+        font-size: 36px;
+        text-align: justify;
+        line-height: 1.8em;
+    }
+    
+    .aboutus-text span {
+        margin-top: 30px;
+        font-size: 48px;
+        font-weight: bold;
+        letter-spacing: 0.16em;
+        text-align: center;
+    }
+    
+    .aboutus-text ul {
+        list-style-type:square;
+        padding: 45px;
+        margin-top:  30px;
+    }
+    .aboutus-text li {
+        font-size: 26px;
+        text-align: left;
+        line-height: 1.2em;
+        font-family: gillsans;
+        font-weight: bold;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    
+    .stockimg {
+        /*        width: 1080px;*/
+        width: 100%;
+        height: 651px;
+    }
+    .item-cap {
+        font-size: 34px
+    }
+    .numbertext {
+        font-size: 34px
+    }
+    .price-region {
+        padding: 75px;
+    }
+    .bar-header {
+        height: 300px;
+    }
+    .has-header {
+        top: 300px;
+    }
+    .bar-footer {
+        height: 150px;
+    }
+    
+    .button-class {
+    /* W3C */
+    color: #000000;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+
+    .button {
+        min-width: 90px;
+        min-height: 45px;
+        line-height: normal;
+    }
+    .button-text {
+        font-size: 30px;
+        font-weight: Bolder;
+        color: #000000;
+        height: 100%;
+        width: 100%;
+        display: table;
+    }
+    .button-text p {
+        padding-top: 20px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .title-image {
+        margin-top: -8px;
+        height: 270px;
+        width: 347px;
+        margin-left: 20px;
+        
+    }
+    .title-lbl {
+        color: wheat;
+        text-align: right;
+        font-weight: bold;
+        margin-right: 2px;
+        font-size: 44px;
+    }
+    .title-bidasklbl {
+        color: wheat;
+        text-align: right;
+        font-weight: bold;
+        margin-right: 2px;
+        margin-top: 75px;
+        font-size: 54px;
+    }
+    .title-bidaskrate {
+        color: wheat;
+        text-align: center;
+        font-weight: bold;
+        margin-right: 2px;
+        margin-top: 75px;
+        font-size: 54px;
+    }
+    .callus {
+        height: 84px;
+        width: 84px;
+        margin-top: 10px;
+    }
+}
+
+
+
+/*@media only screen and (min-device-width: 320px) and (max-device-width: 568px)*/
+/*and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait)*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3)
+{
+    .item {
+        padding: 0px;
+        font-size: 9px;
+        height: 32px;
+    }
+    .welcome-big-text {
+        font-size: 16px;
+        font-weight: normal;
+        color: wheat;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .welcome-small-text {
+        font-size: 13px;
+        font-weight: normal;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        color: wheat;
+    }
+    .wellcomelogoimg {
+        height: 175px;
+    }
+    .abotusimg {
+        height: 130px;
+    }
+    .aboutus-region {
+        margin-top: 18px;
+        background-image: url(../img/aboutbg.png);
+        background-size: 100%;
+        height: 335px;
+    }
+    .aboutus-text p {
+        padding: 12px;
+        font-size: 12px;
+        text-align: justify;
+        line-height: 1.3em;
+        font-family: gillsans;
+    }
+    
+    .aboutus-text ul {
+        list-style-type:square;
+        padding: 13px;
+        margin-top:  9px;
+    }
+    .aboutus-text li {
+        font-size: 9px;
+        text-align: left;
+        line-height: 1.2em;
+        font-family: gillsans;
+        font-weight: bold;
+        margin-bottom: 6px;
+        margin-top: 6px;
+    }
+    .aboutus-text span {
+        margin-top: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+        text-align: center;
+    }
+    .stockimg {
+        /*        width: 730px;*/
+        width: 100%;
+        height: 192px;
+        margin-left: -10px;
+    }
+    .item-cap {
+        font-size: 12px
+    }
+    .numbertext {
+        font-size: 12px
+    }
+    .price-region {
+        padding: 22px;
+    }
+    .bar-header {
+        height: 89px;
+    }
+    .bar-footer {
+        height: 53px;
+    }
+    .has-header {
+        top: 89px;
+    }
+    
+    .button-class {
+    /* W3C */
+    color: #000000;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+
+    .button {
+        min-width: 42px;
+        min-height: 20px;
+        line-height: normal;
+    }
+    .button-text {
+        font-size: 9px;
+        font-weight: Bolder;
+        color: #000000;
+        height: 100%;
+        width: 100%;
+        display: table;
+    }
+    .button-text p {
+        padding-top: 2px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .title-image {
+        margin-top: -2px;
+        height: 80px;
+        width: 104px;
+        margin-left: 4px;
+        
+    }
+    .title-lbl {
+        color: wheat;
+        text-align: right;
+        font-weight: bold;
+        margin-right: 1px;
+        font-size: 12px;
+    }
+    .title-bidasklbl {
+        color: wheat;
+        text-align: right;
+        font-weight: bold;
+        margin-right: 1px;
+        margin-top: 17px;
+        font-size: 16px;
+    }
+    .title-bidaskrate {
+        color: wheat;
+        text-align: center;
+        font-weight: bold;
+        margin-right: 1px;
+        margin-top: 17px;
+        font-size: 16px;
+    }
+    .callus {
+        height: 25px;
+        width: 25px;
+        margin-top: 2px;
+    }
+ 
+}

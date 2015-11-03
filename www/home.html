@@ -1,0 +1,36 @@
+<div ng-controller="homeController">
+    <ion-content>
+        <div class="row">
+            <div class="col">
+               <button ng-click="getrateclick()">
+                            <div class="button-text">
+                            <p>PRICE</br>STREAM</p>
+                        </div>
+            
+                </button>
+            </div>
+        </div>
+        
+    </ion-content>
+    <ion-footer-bar class="pagebody">
+        <div class="row">
+            <div class="col-10"></div>
+            <a ui-sref="advantage" class="col button button-class gradient">
+                <div class="button-text">
+                    <p>EMPERESSE
+                        <br />ADVANTAGE</p>
+                </div>
+            </a>
+            <a ui-sref="pricestream" class="col button button-class gradient">
+                <div class="button-text">
+                    <p>PRICE</br>STREAM</p>
+                </div>
+            </a>
+            <a ng-href ="{{callus}}" class="col button button-class gradient">
+                <img src="img/call-us.png" class="callus">
+            </a>
+            <div class="col-10"></div>
+        </div>
+    </ion-footer-bar>
+
+</div>

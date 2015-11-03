@@ -1,0 +1,104 @@
+/* iPads (portrait and landscape) ----------- */
+
+/*  *****************  For 2 */
+
+/* IPHONE 4 ONLY */
+
+/* IPHONE 5 ONLY */
+
+@font-face {
+    font-family: 'gillsans';
+    font-style: normal;
+    src: url('../font/ARIAL.ttf') format('truetype');
+}
+html,
+body {
+    height: 100%;
+}
+.dark-div {
+    height: 100%;
+    background-color: #000000;
+    text-align: center;
+}
+.row {
+    padding: 0px;
+    height: 100%;
+}
+.col {
+    padding: 2px;
+    align-content: center;
+}
+.button-right {
+    text-align: right;
+    align-content: center;
+}
+.pagebody {
+    background-color: #000000;
+    font-family: gillsans;
+}
+.title-webmaster {
+    color: #000000;
+    text-align: center;
+    font-size: 8px;
+    font-weight: bold;
+    margin-right: 2px;
+}
+.title-rate {
+    color: wheat;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 2px;
+}
+.price-region {
+    background-image: url(../img/pricebg.png);
+    background-size: 100%;
+}
+.price-grid {
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+}
+.price-row {
+    Margin: 0px 10px;
+    border: 0px;
+}
+.golditem-text {
+    border-bottom: 2px solid;
+    text-align: left;
+    padding: 5px 0;
+}
+.item-cap {
+    text-align: left;
+}
+.numbertext {
+    text-align: right;
+    padding-right: 5px;
+    vertical-align: middle;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    padding: 5px 0;
+}
+.item-rate {
+    vertical-align: sub;
+    line-height: normal;
+    padding: 0px 5px;
+}
+.gradient {
+    background-color: #d4b351;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iMCUiPjxzdG9wIHN0b3AtY29sb3I9IiM4YjVjMjUiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2I2ODUzNCIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuMSIvPjxzdG9wIHN0b3AtY29sb3I9IiNmOWVhNzIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjQ3OSIvPjxzdG9wIHN0b3AtY29sb3I9IiNmOWVhNzIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjUzNiIvPjxzdG9wIHN0b3AtY29sb3I9IiNmOWVhNzIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjUzNiIvPjxzdG9wIHN0b3AtY29sb3I9IiNiNjg1MzQiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+    background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0, rgb(139, 92, 37)), color-stop(0.1, rgb(182, 133, 52)), color-stop(0.479, rgb(249, 234, 114)), color-stop(0.536, rgb(249, 234, 114)), color-stop(0.536, rgb(249, 234, 114)), color-stop(1, rgb(182, 133, 52)));
+    /* Android 2.3 */
+    background-image: -webkit-repeating-linear-gradient(90deg, rgb(139, 92, 37) 0%, rgb(182, 133, 52) 10%, rgb(249, 234, 114) 47.9%, rgb(249, 234, 114) 53.6%, rgb(249, 234, 114) 53.6%, rgb(182, 133, 52) 100%);
+    /* IE10+ */
+    background-image: repeating-linear-gradient(0deg, rgb(139, 92, 37) 0%, rgb(182, 133, 52) 10%, rgb(249, 234, 114) 47.9%, rgb(249, 234, 114) 53.6%, rgb(249, 234, 114) 53.6%, rgb(182, 133, 52) 100%);
+    background-image: -ms-repeating-linear-gradient(90deg, rgb(139, 92, 37) 0%, rgb(182, 133, 52) 10%, rgb(249, 234, 114) 47.9%, rgb(249, 234, 114) 53.6%, rgb(249, 234, 114) 53.6%, rgb(182, 133, 52) 100%);
+}
+/* IE8- CSS hack */
+
+@media \0screen\,
+screen\9 {
+    .gradient {
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ffb68534", endColorstr="#ff8b5c25", GradientType=0);
+    }
+}

@@ -1,0 +1,184 @@
+/*@media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2) {*/
+.item {
+    padding: 0px;
+    font-size: 10px;
+    height: 22px;
+    font-weight: bold;
+}
+.welcome-big-text {
+    font-size: 14px;
+    font-weight: normal;
+    color: wheat;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.welcome-small-text {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 14px;
+    margin-bottom: 16px;
+    color: wheat;
+}
+.wellcomelogoimg {
+    height: 148px;
+}
+.abotusimg {
+    margin-top: 21px;
+    height: 110px;
+}
+.aboutus-region {
+    margin-top: 15px;
+    background-image: url(../img/aboutbg.png);
+    background-size: 100%;
+    height: 283px;
+}
+.aboutus-text p {
+    padding: 10px;
+    font-size: 10px;
+    text-align: justify;
+    line-height: 1.3em;
+    font-family: gillsans;
+}
+.aboutus-text ul {
+    list-style-type: square;
+    padding: 11px;
+    margin-top: 8px;
+}
+.aboutus-text li {
+    font-size: 8px;
+    text-align: left;
+    line-height: 1.2em;
+    font-family: gillsans;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.aboutus-text span {
+    margin-top: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+.disclaimer-text p {
+    padding: 5px;
+    font-size: 7px;
+    text-align: justify;
+    line-height: 1.2em;
+    font-family: gillsans;
+}
+.disclaimer-text span {
+    margin-top: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    text-align: left;
+}
+.stockimg {
+    /*        width: 730px;*/
+    width: 100%;
+    height: 182px;
+    margin-left: -8px;
+}
+.item-cap {
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.item-rate {
+    font-size: 10px;
+    font-weight: bold;
+}
+.numbertext {
+    font-size: 10px;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-top: 0px;
+}
+.price-region {
+    padding: 19px;
+    /*margin-top: 72px;*/
+}
+.price-header-row {
+    height: 20px;
+    font-size: 10px;
+}
+.bar-header {
+    height: 100px !important;
+    border-bottom-width: 0px !important;
+}
+.bar-footer {
+    height: 53px;
+    border-top-width: 0px !important;
+}
+.has-header {
+    top: 100px !important;
+}
+.button-class {
+    color: #000000;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.button {
+    min-width: 35px;
+    min-height: 17px;
+    line-height: normal;
+}
+.bar .button {
+    line-height: 10px;
+}
+.button-text {
+    font-size: 7px;
+    font-weight: bold;
+    color: #000000;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.button-text p {
+    padding-top: 2px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.title-image {
+    margin-top: 0px;
+    height: 75px;
+    width: 70px;
+    margin-left: 4px;
+}
+.title-lbl {
+    color: wheat;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 1px;
+    font-size: 10px;
+}
+.title-bidasklbl {
+    color: wheat;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 1px;
+    margin-top: 14px;
+    font-size: 12px;
+}
+.title-bidaskrate {
+    color: wheat;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 1px;
+    margin-top: 14px;
+    font-size: 12px;
+}
+.callus {
+    height: 21px;
+    width: 21px;
+    margin-top: 2px;
+}
+/*}*/

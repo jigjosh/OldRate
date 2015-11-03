@@ -1,0 +1,161 @@
+/*@media all and (-webkit-device-pixel-ratio: 3) {*/
+    .item {
+        padding: 0px;
+        font-size: 34px;
+        height: 96px;
+    }
+    .welcome-big-text {
+        font-size: 44px;
+        font-weight: normal;
+        color: wheat;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .welcome-small-text {
+        font-size: 32px;
+        font-weight: normal;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: wheat;
+    }
+    .wellcomelogoimg {
+        height: 591px;
+    }
+    .abotusimg {
+        height: 441px;
+    }
+    .aboutus-region {
+        margin-top: 40px;
+        background-image: url(../img/aboutbg.png);
+        background-size: 100%;
+        height: 1155px;
+    }
+    .aboutus-text p {
+        padding: 45px;
+        font-size: 36px;
+        text-align: justify;
+        line-height: 1.8em;
+    }
+    .aboutus-text span {
+        margin-top: 30px;
+        font-size: 48px;
+        font-weight: bold;
+        letter-spacing: 0.16em;
+        text-align: center;
+    }
+    .aboutus-text ul {
+        list-style-type: square;
+        padding: 45px;
+        margin-top: 30px;
+    }
+    .aboutus-text li {
+        font-size: 26px;
+        text-align: left;
+        line-height: 1.2em;
+        font-family: gillsans;
+        font-weight: bold;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .stockimg {
+        /*        width: 1080px;*/
+        width: 100%;
+        height: 651px;
+    }
+    .item-cap {
+        font-size: 36px;
+        padding: 20px 5px;            
+        font-weight: bold;
+    }
+.item-rate {
+    font-size: 36px;
+    font-weight: bold;
+}
+    .numbertext {
+        font-size: 36px
+        font-weight: bold;
+    }
+    .price-header-row {
+    height: 50px;
+    font-size: 36px;
+    font-weight: bold;    
+    }
+    .price-region {
+        padding: 75px;
+    }
+    .bar-header {
+        height: 300px;
+    }
+    .has-header {
+        top: 300px;
+    }
+    .bar-footer {
+        height: 150px;
+    }
+    .button-class {
+        /* W3C */
+        color: #000000;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        border: 2px solid transparent;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .button {
+        min-width: 90px;
+        min-height: 45px;
+        line-height: normal;
+    }
+    .button-text {
+        font-size: 30px;
+        font-weight: Bolder;
+        color: #000000;
+        height: 100%;
+        width: 100%;
+        display: table;
+    }
+    .button-text p {
+        padding-top: 20px;
+        display: table-cell;
+        vertical-align: middle;
+        line-height:52px;
+    }
+    .title-image {
+        margin-top: -8px;
+        height: 270px;
+        width: 347px;
+        margin-left: 20px;
+    }
+    .title-lbl {
+        color: wheat;
+        text-align: right;
+        font-weight: bold;
+        margin-right: 2px;
+        font-size: 44px;
+    }
+    .title-bidasklbl {
+        color: wheat;
+        text-align: right;
+        font-weight: bold;
+        margin-right: 2px;
+        margin-top: 75px;
+        font-size: 54px;
+    }
+    .title-bidaskrate {
+        color: wheat;
+        text-align: center;
+        font-weight: bold;
+        margin-right: 2px;
+        margin-top: 75px;
+        font-size: 54px;
+    }
+    .callus {
+        height: 84px;
+        width: 84px;
+        margin-top: 10px;
+    }
+/*}*/

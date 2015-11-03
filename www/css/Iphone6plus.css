@@ -1,0 +1,189 @@
+/*    @media screen and (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3) */
+/*    @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) {*/
+    .item {
+        padding: 0px;
+        font-size: 13px;
+        height: 34px;
+    }
+    .welcome-big-text {
+        font-size: 20px;
+        font-weight: normal;
+        color: wheat;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .welcome-small-text {
+        font-size: 17px;
+        font-weight: normal;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: wheat;
+    }
+    .wellcomelogoimg {
+        height: 226px;
+    }
+    .abotusimg {
+        margin-top: 32px;
+        height: 168px;
+    }
+    .aboutus-region {
+        margin-top: 23px;
+        background-image: url(../img/aboutbg.png);
+        background-size: 100%;
+        height: 433px;
+    }
+    .aboutus-text p {
+        padding: 15px;
+        font-size: 15px;
+        text-align: justify;
+        line-height: 1.3em;
+        font-family: gillsans;
+    }
+    .aboutus-text ul {
+        list-style-type: square;
+        padding: 17px;
+        margin-top: 12px;
+    }
+    .aboutus-text li {
+        font-size: 12px;
+        text-align: left;
+        line-height: 1.2em;
+        font-family: gillsans;
+        font-weight: bold;
+        margin-bottom: 8px;
+        margin-top: 8px;
+        margin-left: 13px;
+    }
+    .aboutus-text span {
+        margin-top: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+        text-align: center;
+    }
+.disclaimer-text p {
+        padding: 6px;
+        font-size: 10px;
+        text-align: justify;
+        line-height: 1.2em;
+        font-family: gillsans;
+    }
+.disclaimer-text span {
+        margin-top: 3px;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+        text-align:left;
+    }
+    .stockimg {
+        /*        width: 730px;*/
+        width: 100%;
+        height: 248px;
+        margin-left: -10px;
+    }
+    .item-cap {
+        font-size: 15px;
+        font-weight: bold;
+        padding-left:  6px;
+        padding-right: 6px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .item-rate {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .numbertext {
+        font-size: 18px;
+        font-weight: bold;
+        padding-right: 6px;
+        padding-top: 0px;
+    }
+    .price-region {
+        padding: 28px;
+        /*margin-top: 100px;*/
+    }
+    .price-header-row {
+        height: 32px;
+        font-size: 15px;
+    }
+    .bar-header {
+        height: 100px !important; 
+        border-bottom-width: 0px !important;
+    }
+    .bar-footer {
+        height: 68px;
+        border-top-width: 0px !important;
+    }
+    .has-header {
+        top: 129px !important; 
+    }
+    .button-class {
+        color: #000000;
+        border-radius: 6px;
+        border: 2px solid transparent;
+        margin-top: 19px;
+        margin-bottom: 0px;
+        text-align: center;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .button {
+        min-width: 54px;
+        min-height: 20px;
+        line-height: normal;
+    }
+            
+    .bar .button {
+        line-height: 15px;
+    }
+    .button-text {
+        font-size: 12px;
+        font-weight: bold;
+        color: #000000;
+        height: 100%;
+        width: 100%;
+        display: table;
+    }
+    .button-text p {
+        padding-top: 3px;
+        display: table-cell;
+        vertical-align: middle;
+        line-height: 14px;
+    }
+
+    .title-image {
+        margin-top: 0px;
+        height: 97px;
+        width: 125px;
+        margin-left: 5px;
+    }
+    .title-lbl {
+        color: wheat;
+        text-align: right;
+        font-weight: bold;
+        margin-right: 1px;
+        font-size: 15px;
+    }
+    .title-bidasklbl {
+        color: wheat;
+        text-align: right;
+        font-weight: bold;
+        margin-right: 1px;
+        margin-top: 13px;
+        font-size: 18px;
+    }
+    .title-bidaskrate {
+        color: wheat;
+        text-align: center;
+        font-weight: bold;
+        margin-right: 1px;
+        margin-top: 14px;
+        font-size: 18px;
+    }
+    .callus {
+        height: 32px;
+        width: 32px;
+        margin-top: 3px;
+    }
+/*}*/

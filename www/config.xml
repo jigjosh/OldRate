@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <widget xmlns = "http://www.w3.org/ns/widgets" 
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+		id = "com.ionicframework.rate291249"
+		version = "1.2.10"
+		versionCode = "16">
+    <name>EMPERESSE</name>
+    <description>
+        EMPERESSE
+    </description>
+
+    <author href="http://webmastersdubai.com/" email="support@webmastersdubai.com">Jignesh Joshi</author>
+    <content src="index.html" />
+    <!-- ICONS -->
+        
+    <icon src="icon.png" /> <!-- default 512 pixels -->
+    <icon src="img/icons/ios/icon57.png" gap:platform="ios" width="57" height="57" /> <!-- iPhone & iPod Touch non retina iOS6 -->
+    <icon src="img/icons/ios/icon72.png" gap:platform="ios" width="72" height="72" /> <!-- iPad non retina iOS6 -->
+    <icon src="img/icons/ios/icon76.png" gap:platform="ios" width="76" height="76" /> <!-- iPad non retina iOS7 -->
+    <icon src="img/icons/ios/icon114.png" gap:platform="ios" width="114" height="114" /> <!-- iPhone & iPod Touch retina iOS6 -->
+    <icon src="img/icons/ios/icon120.png" gap:platform="ios" width="120" height="120" /> <!-- iPhone & iPod Touch retina iOS7 -->
+    <icon src="img/icons/ios/icon144.png" gap:platform="ios" width="144" height="144" /> <!-- iPad retina iOS6 -->
+    <icon src="img/icons/ios/icon152.png" gap:platform="ios" width="152" height="152" /> <!-- iPad retina iOS7 -->
+      
+
+    <icon src="img/icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> <!-- 36 pixels -->
+    <icon src="img/icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" /> <!-- 48 pixels -->
+    <icon src="img/icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" /> <!-- 72 pixels -->
+    <icon src="img/icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> <!-- 96 pixels -->
+    <icon src="img/icons/android/xxhdpi.png" gap:platform="android" gap:density="xxhdpi" /> <!-- 144 pixels -->
+    <icon src="img/icons/android/xxxhdpi.png" gap:platform="android" gap:density="xxxhdpi" /> <!-- 192 pixels -->
+        
+        
+    <!-- SPLASH SCREENS -->
+       
+    <gap:splash src="Default.png" /> 
+    <gap:splash src="img/splash/ios/Default.png"                gap:platform="ios"     width="320" height="480" />
+    <gap:splash src="img/splash/ios/Default@2x.png"             gap:platform="ios"     width="640" height="960" />
+    <gap:splash src="img/splash/ios/Default-568h@2x.png"        gap:platform="ios"     width="640" height="1136" />
+    <gap:splash src="img/splash/ios/Default-Portrait.png"       gap:platform="ios"     width="768" height="1024" />
+    <gap:splash src="img/splash/ios/Default-Landscape.png"      gap:platform="ios"     width="1024" height="768" />        
+        
+    <gap:splash src="img/splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> 
+    <gap:splash src="img/splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" /> 
+    <gap:splash src="img/splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" /> 
+    <gap:splash src="img/splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="img/splash/android/xxhdpi.png" gap:platform="android" gap:density="xxhdpi" /> 
+    <gap:splash src="img/splash/android/xxxhdpi.png" gap:platform="android" gap:density="xxxhdpi" /> 
+    
+    <gap:splash src="splash.jpg" gap:platform="winphone" />
+
+    <!-- PLATFORM SELECTION -->
+
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
+        
+    <!-- GENERAL PREFERENCES -->
+        
+    <!--preference name="phonegap-version" value="3.5.0" /-->
+    <preference name='phonegap-version' value='cli-5.2.0' />
+    <preference name="webviewbounce" value="false"/>
+    <preference name="UIWebViewBounce" value="false"/>
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="BackupWebStorage" value="none"/>
+
+    <preference name="orientation" value="default" />
+    <preference name="fullscreen" value="true" /> <!-- remove the upper bar on iOS and Android -->
+        
+    <!-- iOS PREFERENCES -->
+    
+    <preference name="target-device" value="universal" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="false" />
+    <preference name="exit-on-suspend" value="false" />
+
+    <preference name="webviewbounce" value="false" />
+    <preference name="stay-in-webview" value="false" />
+    
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="5000" />
+        
+    <!--    
+    <preference name="show-splash-screen-spinner" value="false" />
+    <preference name="auto-hide-splash-screen" value="false" /> 
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="SplashScreenDelay" value="10000" />
+    -->    
+    
+    <!--
+    <preference name="SplashScreen" value="splash" />
+    <preference name="SplashScreenDelay" value="5000" />    
+    <preference name="auto-hide-splash-screen" value="false" /> 
+    <preference name="AutoHideSplashScreen" value="false" />
+        
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen"/>
+        <param name="onload" value="true" />
+     </feature>    
+    -->
+        
+    <gap:plugin name="org.apache.cordova.battery-status"  />    
+    <gap:plugin name="org.apache.cordova.splashscreen" />        
+    <gap:plugin name="org.apache.cordova.network-information" />        
+    <!--<feature name="http://api.phonegap.com/1.0/network"/>        
+        -->
+        
+    <!-- ANDROID PREFERENCES -->
+        
+    <!--preference name="android-minSdkVersion" value="7" />
+    <preference name="android-targetSdkVersion" value="19" /> 
+    <preference name="android-installLocation" value="auto" />
+    <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
+    <preference name="load-url-timeout" value="20000" /
+    <preference name="splash-screen-duration" value="4000" />-->
+
+    
+        
+    <!-- PHONEGAP API FEATURES PREFERENCES 
+    <preference name="permissions" value="none"/> -->
+    
+    <!--
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+    </feature>        
+
+    <feature name="http://api.phonegap.com/1.0/battery"/>
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+    -->
+
+    <access origin="*" />
+
+</widget>
+
+
